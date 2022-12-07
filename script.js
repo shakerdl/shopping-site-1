@@ -39,6 +39,8 @@ headerContainer.appendChild(headerHTML);
 
 
 
+
+
 // for(let i=0; i<productsArray.length;i++) {
 
 //     const productDIV = document.createElement("div");

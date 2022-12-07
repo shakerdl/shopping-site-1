@@ -1,8 +1,9 @@
 // name: 'Black Tea',
 // amount: 99,
 // price: 20
-
 //must have product.title
+
+
 function createProduct(product) {
   let productHTML;
   if (product && typeof product === "object") {
