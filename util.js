@@ -55,6 +55,10 @@ function createProductList(productList) {
       productListElement.appendChild(product);
     }
   }
+  else {
+    throw console.error("no header");
+  }
+
 
   return productListElement;
 }
@@ -73,7 +77,7 @@ function createHeader(headerObject) {
 }
 
 function createElement({
-  id,
+  id,c
   className,
   tag = "div",
   innerHTML,
